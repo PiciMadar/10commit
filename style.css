@@ -1,0 +1,14 @@
+body{
+    background-image:linear-gradient(whitesmoke, white, wheat, white, whitesmoke);
+    color: rgb(109, 85, 54);
+}
+
+
+.con{
+    background-color: wheat;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 40px;
+    border: 20px whitesmoke double;
+    border-radius: 120px;
+}
