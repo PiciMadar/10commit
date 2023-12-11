@@ -60,8 +60,27 @@ h1{
     border-radius: 20%;
 }
 
+
+.content2 img{
+    width: 400px;
+    border: white double 20px;
+    border-radius: 20%;
+}
+
 .content{
     display: flex;
+}
+
+
+.content2{
+    display: block;
+}
+
+.content2 div:nth-child(2){
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .content div{
@@ -72,4 +91,30 @@ h1{
     margin-left: 30px;
     margin-right: 30px;
     font-size: x-large;
+}
+
+
+.content2 div{
+    background-color: white;
+    padding: 15px;
+    border: wheat 5px double;
+    border-radius: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(109, 85, 54);;
+}
+
+.foot a{
+    border: white double 8px;
+    border-radius: 20px;
+    padding: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 2px;
+    font-size: 25px;
 }
