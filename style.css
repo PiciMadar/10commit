@@ -69,6 +69,10 @@ h1{
 
 .content{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 10px;
 }
 
 
@@ -86,11 +90,14 @@ h1{
 .content div{
     background-color: white;
     padding: 15px;
-    border: white 5px double;
+    border: wheat 5px double;
     border-radius: 0px;
+    border-bottom: 20px whitesmoke solid;
+    border-top: 20px whitesmoke solid;
     margin-left: 30px;
     margin-right: 30px;
     font-size: x-large;
+    background-color: rgb(255, 255, 255);
 }
 
 
